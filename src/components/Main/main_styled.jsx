@@ -40,3 +40,47 @@ button{
     border-radius: 10px;
 }
 `
+
+export const BoxProdutos = styled.section`
+
+height: 80vh;
+background-color: #FFC72C;
+${center}
+flex-direction: column;
+justify-content: space-around;
+`
+
+export const Opcao = styled.figure`
+
+width: 38vw;
+${center}
+justify-content: space-around;
+img{
+    cursor: pointer;
+}
+`
+
+export const Principal = styled.div`
+
+height: 40vh;
+img{
+    width: 20vw;
+}
+`
+
+export const Caixa = styled.div`
+
+${center}
+justify-content: space-between;
+height: 80vh;
+width: 90vw;
+h2{
+    
+    font-size: 5rem;
+    color: white;
+    width: 50vw;
+    span{
+        color: red;
+    }
+}
+`

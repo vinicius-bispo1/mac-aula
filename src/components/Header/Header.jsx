@@ -12,7 +12,7 @@ export default function Header() {
                 <img src={app} alt="" />
                 <p>Baixe o App</p>
             </S.App>
-            <S.App color="#FFC72C">
+            <S.App color="#FFC72C" > 
                 <p>Peça seu Méqui</p>
                 <img src={celapp} alt="" />
             </S.App>
